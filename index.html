@@ -7,8 +7,230 @@
     <title>Leader Board</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/leaderboard.png" type="image/x-icon" />
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f41b141fd6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Hello world
+    <!-- Header Start -->
+    <header id="leaderboard-header" class="my-header">
+      <div class="header-area container">
+        <div class="left-logo">
+          <div class="logo">
+            <a href="#">
+              <img src="img/icons/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="logo-text">
+            <span>Idea</span>
+          </div>
+        </div>
+        <div class="right-nav">
+          <div class="menu">
+            <a href="#">Home</a><a href="#">About</a><a href="#">Works</a>
+          </div>
+          <div class="profile-img">
+            <img src="img/icons/profile.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!---------------------- Main part of the website ---------------------->
+
+    <main>
+      <!-- Top Player & Blog -->
+      <div id="top-player-blog" class="container">
+        <p class="section-title">Top Player</p>
+        <div class="players">
+          <div class="player">
+            <div class="player-img">
+              <img src="img/players/player-1.png" alt="" />
+            </div>
+            <div class="player-name">
+              <span>John Smith</span>
+            </div>
+          </div>
+          <div class="player">
+            <div class="player-img">
+              <img src="img/players/player-2.png" alt="" />
+            </div>
+            <div class="player-name">
+              <span>Maruf Ahmed</span>
+            </div>
+          </div>
+          <div class="player">
+            <div class="player-img">
+              <img src="img/players/player-3.png" alt="" />
+            </div>
+            <div class="player-name">
+              <span>Marjuk Rasel</span>
+            </div>
+          </div>
+          <div class="player">
+            <div class="player-img">
+              <img src="img/players/player-4.png" alt="" />
+            </div>
+            <div class="player-name">
+              <span>Mehedi Hasan</span>
+            </div>
+          </div>
+          <div class="player">
+            <div class="player-img">
+              <img src="img/players/player-5.png" alt="" />
+            </div>
+            <div class="player-name">
+              <span>Abu Sufian</span>
+            </div>
+          </div>
+          <div class="player">
+            <div class="player-img">
+              <img src="img/players/player-6.png" alt="" />
+            </div>
+            <div class="player-name">
+              <span>Sajedul Karim</span>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="section-title">Top Blog</p>
+        <div class="blogs">
+          <div class="blog">
+            <div class="blog-img">
+              <img src="img/blogs/blog-1.png" alt="" />
+            </div>
+            <div class="blog-content">
+              <h4>13 of My Favorite UI/UX Goodies</h4>
+              <p><span>By</span><a href="#">Danny Saplo</a></p>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="blog-img">
+              <img src="img/blogs/blog-2.png" alt="" />
+            </div>
+            <div class="blog-content">
+              <h4>UI cheat sheet: list vs grids</h4>
+              <p><span>By</span><a href="#">Tesla Andrew</a></p>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="blog-img">
+              <img src="img/blogs/blog-3.png" alt="" />
+            </div>
+            <div class="blog-content">
+              <h4>7 typography tips for interface design</h4>
+              <p><span>By</span><a href="#">Pablo Madrid</a></p>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="blog-img">
+              <img src="img/blogs/blog-4.png" alt="" />
+            </div>
+            <div class="blog-content">
+              <h4>Your logo is copied</h4>
+              <p><span>By</span><a href="#">Nicholas Pooran</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Latest Course -->
+      <div id="latest-course" class="container">
+        <p class="section-title">Latest Course</p>
+        <div class="courses">
+          <div class="course">
+            <div class="course-img">
+              <img src="img/courses/course-1.png" alt="" />
+            </div>
+            <div class="course-title">
+              <p>React - The Complete Guideline 2021</p>
+            </div>
+            <div class="course-author">
+              <span>Reed Krakoff</span>
+            </div>
+            <div class="course-info">
+              <div class="star">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+              </div>
+              <div class="ratings">
+                <span>4.5</span>
+              </div>
+              <div class="duration">
+                <p>
+                  <img src="img/icons/clock.png" alt="" />
+                  <span>01:20 hr</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-img">
+              <img src="img/courses/course-2.png" alt="" />
+            </div>
+            <div class="course-title">
+              <p>Powerpoint 2021 Master Powerpoint Course</p>
+            </div>
+            <div class="course-author">
+              <span>Reed Krakoff</span>
+            </div>
+            <div class="course-info">
+              <div class="star">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+              </div>
+              <div class="ratings">
+                <span>4.5</span>
+              </div>
+              <div class="duration">
+                <p>
+                  <img src="img/icons/clock.png" alt="" />
+                  <span>01:20 hr</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-img">
+              <img src="img/courses/course-3.png" alt="" />
+            </div>
+            <div class="course-title">
+              <p>The Complete JavaScript Course 2021</p>
+            </div>
+            <div class="course-author">
+              <span>Reed Krakoff</span>
+            </div>
+            <div class="course-info">
+              <div class="star">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+              </div>
+              <div class="ratings">
+                <span>4.5</span>
+              </div>
+              <div class="duration">
+                <p>
+                  <img src="img/icons/clock.png" alt="" />
+                  <span>01:20 hr</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
